@@ -96,9 +96,6 @@ setup_args = dict(
             'pytest-cov',
             'nbval',
         ],
-        'examples': [
-            # Any requirements for the examples to run
-        ],
         'docs': [
             'sphinx>=1.5',
             'recommonmark',

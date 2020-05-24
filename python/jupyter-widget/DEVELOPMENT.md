@@ -1,5 +1,10 @@
 # for development
 
+## install local source in "develop mode" (=editable mode)
+
+```bash
+pip install -e .
+```
 ## install python/dev dependencies
 
 ```bash

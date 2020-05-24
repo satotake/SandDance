@@ -24,6 +24,7 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 If you are using Jupyter Notebook 5.2 or earlier, you may also need to enable
 the nbextension:
 ```bash
+jupyter nbextension install --sys-prefix --symlink --overwrite --py pandas_sanddance 
 jupyter nbextension enable --py [--sys-prefix|--user|--system] pandas_sanddance
 ```
 
